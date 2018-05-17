@@ -1,0 +1,12 @@
+'''
+Created on 23-Dec-2017
+
+@author: sridi
+'''
+from _datetime import date, datetime
+isRaining =True
+
+
+while isRaining:
+    print("""IT is found raining at""",datetime.today())
+    isRaining =False

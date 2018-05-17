@@ -1,0 +1,36 @@
+'''
+Created on 23-Dec-2017
+
+@author: sridi
+'''
+from _operator import index
+
+'''Try1'''
+from _datetime import date, datetime
+
+isRaining =True
+
+
+while isRaining:
+    #print("""IT is found raining at""",datetime.today())
+    isRaining =False
+    
+'''Try2'''
+def calledFunc():
+    exampleList = [1,2,3,4,5,6,7,8,9,10]
+    #print(len(exampleList))
+    """for x in exampleList:
+        print(x)"""
+    for x in range(0,18):
+        if (exampleList[x]%2)==0:
+            print(x,exampleList[x])
+            if index(exampleList[x])==len(exampleList):
+                break;
+
+
+'''try3'''
+def task1():
+
+
+def task2():
+    print('more tasks')

@@ -1,0 +1,31 @@
+'''
+Created on 16-Dec-2017
+
+@author: sridi
+'''
+
+
+
+'''LISTS'''
+
+courses=['Maths','Testing','c++']
+
+#Finding Length
+print("Length of the list is ",len(courses))
+
+#Finding a value using index
+print("The 2nd value is ",courses[1])
+print("The last value using negative index",courses[-1])
+
+#Slicing
+print("SLice method 1",courses[0:2])
+print("SLice method 2",courses[-2:-1])
+print("SLice method 3",courses[:])
+print("SLice method 4",courses[0:])
+print("SLice method 5",courses[:2])
+
+#Adding a value to List
+courses.append('Physics')
+print("After Append",courses)
+courses.insert(10, 'StudyInsert')
+print("After Insertion",courses)

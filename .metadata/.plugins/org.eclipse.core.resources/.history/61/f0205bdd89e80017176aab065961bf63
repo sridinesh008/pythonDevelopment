@@ -1,0 +1,24 @@
+'''
+Created on 24-Dec-2017
+
+@author: sridi
+'''
+class calculator:
+    
+    def addition(self,x,y):
+        self.added = self.x + self.y
+        print(self.added)
+        
+    def subtraction(self,x,y):
+        sub = x - y
+        print(sub)
+
+    def multiplication(self,x,y):
+        mult = x * y
+        print(mult)
+
+    def division(self,x,y):
+        div = x / y
+        print(div)
+        
+calculator.addition(78,89)

@@ -1,0 +1,19 @@
+'''
+Created on 25-Dec-2017
+
+@author: sridi
+'''
+import csv
+
+with open('Book1.csv') as csvfile:
+    readCSV = csv.reader(csvfile, delimiter=',')
+    names=[]
+    ages=[]
+    for row in readCSV:
+        #print(row)
+        name=row[0]
+        age=row[1]
+        names.append(name)
+        ages.append(age)
+    
+        print(names,ages)

@@ -1,0 +1,14 @@
+'''
+Created on 15-Dec-2017
+
+@author: sridi
+'''
+import helloWorld
+class testInheritance:
+    def inheritAdd(self,d):
+        self.d=d 
+
+    
+helloWorld=helloWorld()
+testInheritance=testInheritance()
+print(helloWorld.emp_1().add(5,testInheritance.d))

@@ -1,0 +1,34 @@
+'''
+Created on 16-Dec-2017
+
+@author: sridi
+
+'''
+'''Tuples'''
+#Mutable
+list_1=['Course0','Course1','Course3','Course4']
+list_2=list_1
+print(list_1,list_2)
+
+list_1[0]='courses'
+print(list_1,list_2)
+
+#immutable
+
+tuple_1=('Course0','Course1','Course3','Course4')
+tuple_2=tuple_1
+print(tuple_1,tuple_2)
+#tuple_1[0]='Course0'
+#print(tuple_1,tuple_2)
+
+
+'''Sets-Automatically remove duplicates'''
+set_1={'Course0','Course1','Course3','Course4','Course0'}
+print("Watch deplicates removed",set_1)
+print("As sts ar optimized for finding a value lets do it",'course0' in set_1)
+
+
+
+
+
+

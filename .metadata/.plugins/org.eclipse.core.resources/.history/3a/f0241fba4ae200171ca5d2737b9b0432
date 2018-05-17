@@ -1,0 +1,12 @@
+'''
+Created on 16-Dec-2017
+
+@author: sridi
+'''
+
+list_1=['Course0','Course1','Course3','Course4']
+list_2=list_1
+print(list_1,list_2)
+
+list_1[0]='courses'
+print(list_1,list_2)

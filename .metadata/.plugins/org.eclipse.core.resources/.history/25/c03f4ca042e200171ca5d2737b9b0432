@@ -1,0 +1,18 @@
+'''
+Created on 16-Dec-2017
+
+@author: sridi
+'''
+
+
+
+'''LISTS'''
+
+courses=['Maths','Testing','c++']
+
+print("Length of the list is ",len(courses))
+print("The 2nd value is ",courses[1])
+print("The last value using negative index",courses[-1])
+print("SLice method one",courses[0:2])
+print("SLice method one",courses[-2:-1])
+print("SLice method one",courses[:])

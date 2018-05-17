@@ -1,0 +1,22 @@
+'''
+Created on 16-Dec-2017
+
+@author: sridi
+'''
+
+#Type prediction 
+num=3
+print(type(num))
+num=3.14
+print(type(num))
+
+
+##Arithmatic opreators
+
+print(9+5,"Addition")
+print(9-5+"minus")
+print(9*5+"Mulitiplication")
+print(9/5+"Division")
+print(9//5+"Floor division")
+print(9**5+"Exponents")
+print(9**5+"Exponents")

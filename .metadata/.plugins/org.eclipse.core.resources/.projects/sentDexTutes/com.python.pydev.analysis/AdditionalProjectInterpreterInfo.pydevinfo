@@ -1,0 +1,48 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\DineshPy\.metadata\.plugins\org.eclipse.core.resources\.projects\sentDexTutes\com.python.pydev.analysis\v2_indexcache
+class2|1514046971822219000|D:\DineshPy\sentDexTutes\class2.py
+stats|1514107710131379000|D:\DineshPy\sentDexTutes\stats.py
+jusTryIt|1514204185749822000|D:\DineshPy\sentDexTutes\jusTryIt.py
+classBasic|1514106448049780000|D:\DineshPy\sentDexTutes\classBasic.py
+fileHandling|1514106018565157000|D:\DineshPy\sentDexTutes\fileHandling.py
+csvHandling|1514204954763374000|D:\DineshPy\sentDexTutes\csvHandling.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+7=calculator
+1=stats
+6=class2
+4=jusTryIt
+5=classBasic
+3=fileHandling
+2=csvHandling
+-- END DICTIONARY
+-- START TREE 1
+18
+a|1|a!11@
+age|2|ages!19@age!19@
+app|2|appendNames!27@appendFile!27@
+b|1|b!11@
+cal|2|calledFunc!34@calculator!41@
+col|1|coldex!19@
+exa|3|example!50@example_list!11@exampleList!35@
+isr|1|isRaining!35@
+nam|2|names!19@name!19@
+rea|2|readMe!27@readCSV!19@
+sav|1|savefile!27@
+sim|1|simple_addition!50@
+tas|1|task1!34@
+tex|1|text!27@
+wha|1|whatAge!19@
+x|2|x!51@x!35@
+y|1|y!11@
+z|1|z!11@
+-- END TREE
+-- START TREE 2
+4
+add|1|addition!7&42@
+div|1|division!7&42@
+mul|1|multiplication!7&42@
+sub|1|subtraction!7&42@
+-- END TREE

@@ -1,0 +1,10 @@
+'''
+Created on 24-Dec-2017
+
+@author: sridi
+'''
+
+text = "sample text to save \n new line !"
+savefile=open('exampleFile.txt','r')
+savefile.write(text)
+savefile.close()
